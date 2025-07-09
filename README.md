@@ -1,40 +1,6 @@
 
 # TwinMind
 
-**TwinMind** is a modern, production-level Android app that acts as your AI-powered meeting assistant. It helps you transcribe, summarize, and chat about your meetings, with seamless Google Sign-In, beautiful UI, and robust architecture.
-
----
-
-## 🚀 Features
-
-- **Google Sign-In with Firebase Auth**  
-  Secure, one-tap authentication using your Google account.
-
-- **Google Calendar Integration**  
-  View upcoming meetings and events in a beautiful, modern calendar UI.
-
-- **Real-Time Meeting Transcription**  
-  Live voice-to-text transcription with animated UI and intuitive controls.
-
-- **Automatic Summary Generation**  
-  Instantly generate concise, AI-powered summaries of your meetings.
-
-- **Saved Summaries Library**  
-  Browse, share, and delete your saved meeting summaries with a polished UI.
-
-- **Interactive AI Chat**  
-  Chat with an AI companion about your meetings, summaries, or anything else.
-
-- **Local & Cloud Storage**  
-  Data is managed using Room (local) and Retrofit (cloud/mock), with a clean repository pattern.
-
-- **Logout & Session Management**  
-  Secure logout from both Google and Firebase, with proper back stack handling.
-
-- **Beautiful, Modern UI**  
-  Built with Jetpack Compose and Material 3, featuring animated elements, cards, and responsive layouts.
-
----
 
 ## 🛠 Tech Stack
 
@@ -116,11 +82,6 @@ app/
 3. **Set your `default_web_client_id`** in `res/values/strings.xml`
 4. **Build and run** on Android Studio (API 29+)
 
----
-
-## 🤝 Contributing
-
-PRs and issues are welcome! Please follow Clean Architecture and Compose best practices.
 
 ---
 
